@@ -3,7 +3,7 @@ require "pry"
 
 def run_guessing_game
   puts "Guess a number between 1 and 6"
-  computer_number==rand(1..6)
+  computer_number=rand(1..6)
   input=gets.chomp
   if input == "exit"
   return "Goodbye!"
